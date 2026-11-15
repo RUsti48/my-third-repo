@@ -12,6 +12,7 @@ root@roman-VB:/home/roman/repo/my-third-repo# ps aux ------- 2> err.txt
 ```
 [Результат с ошибкой](err.txt)
 
+## Задание № 3.2
 ```bash
 root@roman-VB:/home/roman/repo/my-third-repo# ps aux | head -11 | tee proc.txt
 ```
