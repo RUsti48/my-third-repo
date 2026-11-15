@@ -1,0 +1,235 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       31169  100  0.1  10100  5280 pts/1    R+   23:00   0:00 ps aux --sort=-%cpu
+roman       3769  0.8  8.4 4581468 291612 ?      Rsl  17:51   2:35 /usr/bin/gnome-shell --mode=ubuntu
+roman      31063  0.3  2.0 3189256 72176 ?       Sl   22:57   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+roman       4858  0.3  7.5 2327400 261336 ?      Sl   17:52   1:02 ptyxis --new-window
+root           1  0.0  0.4  26196 15776 ?        Ss   17:51   0:09 /usr/lib/systemd/systemd --system --deserialize=86 splash
+root        2101  0.0  0.0 350152  2332 ?        Sl   17:51   0:08 /usr/bin/VBoxDRMClient
+root          65  0.0  0.0      0     0 ?        S    17:51   0:07 [kswapd0]
+message+    1070  0.0  0.2  12200  8708 ?        Ss   17:51   0:06 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+roman       4100  0.0  0.4 500912 15204 ?        Sl   17:52   0:05 /usr/libexec/ibus-extension-gtk3
+root        2872  0.0  0.3 319200 10844 ?        Ssl  17:51   0:05 /usr/libexec/upowerd
+roman       3439  0.0  0.4  23648 14688 ?        Ss   17:51   0:05 /usr/lib/systemd/systemd --user --deserialize=31
+root       30045  0.0  1.2 1855268 44576 ?       Ssl  21:25   0:01 /snap/snapd/current/usr/lib/snapd/snapd
+roman      28074  0.0  0.8 1854052 31092 ?       Sl   18:49   0:03 /snap/snapd/current/usr/bin/snap userd
+root       30997  0.0  0.0      0     0 ?        I    22:30   0:00 [kworker/1:2-ata_sff]
+roman       3473  0.0  0.1  10336  6908 ?        Ss   17:51   0:03 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+roman       3921  0.0  0.2 385944  8560 ?        Ssl  17:52   0:03 /usr/bin/ibus-daemon --panel disable
+roman      31136  0.0  0.1   8936  6280 pts/2    Ss   22:58   0:00 /usr/bin/bash
+root        5199  0.0  1.1 584104 40100 ?        Ssl  18:00   0:02 /usr/libexec/fwupd/fwupd
+root       30017  0.0  0.0      0     0 ?        I    21:25   0:00 [kworker/u14:3-flush-8:0]
+root       30487  0.0  0.0      0     0 ?        I    21:44   0:00 [kworker/u14:2-events_unbound]
+root          15  0.0  0.0      0     0 ?        I    17:51   0:02 [rcu_preempt]
+root        2103  0.0  0.0 354620  3096 ?        Sl   17:51   0:02 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root          47  0.0  0.0      0     0 ?        S    17:51   0:02 [kcompactd0]
+root       31009  0.0  0.0      0     0 ?        I    22:44   0:00 [kworker/u15:2-events_unbound]
+root        9419  0.0  0.0      0     0 ?        I    18:42   0:01 [kworker/u15:1-events_unbound]
+systemd+     414  0.0  0.2  16848  7580 ?        Ss   17:51   0:02 /usr/lib/systemd/systemd-oomd
+polkitd     1089  0.0  0.3 387948 13268 ?        Ssl  17:51   0:01 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+roman       4652  0.0  0.0 149024  2332 ?        Sl   17:52   0:01 /usr/bin/VBoxClient --vmsvga-session
+root       31146  0.0  0.2  12796  7120 pts/2    S+   22:58   0:00 sudo -s
+root        1108  0.0  0.2  18824 10052 ?        Ss   17:51   0:01 /usr/lib/systemd/systemd-logind
+roman      30752  0.0  0.9  44828 34108 ?        S    21:51   0:00 python3 /usr/bin/wsdd --no-host --discovery --listen /run/user/1000/gvfsd/wsdd
+root       28845  0.0  0.0      0     0 ?        I    18:49   0:01 [kworker/u13:3-events_unbound]
+root         370  0.0  0.5  50924 17496 ?        S<s  17:51   0:01 /usr/lib/systemd/systemd-journald
+root          77  0.0  0.0      0     0 ?        I    17:51   0:01 [kworker/u15:4-events_power_efficient]
+roman       4874  0.0  0.2 239948  7520 ?        Ssl  17:52   0:01 /usr/libexec/ptyxis-agent --socket-fd=3 --rlimit-nofile=1024
+roman       3961  0.0  0.7 644612 26288 ?        Sl   17:52   0:01 /usr/bin/update-notifier
+roman       4322  0.0  0.2 169532  7676 ?        Sl   17:52   0:01 /usr/libexec/ibus-engine-simple
+root         310  0.0  0.0      0     0 ?        I<   17:51   0:01 [kworker/1:1H-kblockd]
+root         317  0.0  0.0      0     0 ?        S    17:51   0:01 [jbd2/sda2-8]
+root       29918  0.0  0.0      0     0 ?        I    20:50   0:00 [kworker/u14:0-events_power_efficient]
+root          25  0.0  0.0      0     0 ?        S    17:51   0:01 [ksoftirqd/1]
+roman       4708  0.0  0.4 487076 16796 ?        Sl   17:52   0:01 /snap/snapd-desktop-integration/391/usr/bin/snapd-desktop-integration
+roman       3477  0.0  0.1 303956  5060 ?        Ssl  17:51   0:00 /snap/snapd-desktop-integration/391/usr/bin/user-session-helper /snap/snapd-desktop-integration/391/usr/bin/snapd-desktop-integration
+root        1176  0.0  0.6 337608 22072 ?        Ssl  17:51   0:00 /usr/sbin/NetworkManager --no-daemon
+root          91  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/0:1H-kblockd]
+roman       4306  0.0  0.2 390108  8572 ?        Ssl  17:52   0:00 /usr/libexec/gvfs-afc-volume-monitor
+roman       4154  0.0  0.7 729620 24508 ?        SNsl 17:52   0:00 /usr/libexec/localsearch-3
+root        9299  0.0  0.0      0     0 ?        I    18:42   0:00 [kworker/u13:2-events_power_efficient]
+roman       4157  0.0  0.5 703196 17516 ?        Ssl  17:52   0:00 /usr/libexec/xdg-desktop-portal
+roman       4606  0.0  0.6 1275588 20768 ?       Sl   17:52   0:00 /usr/libexec/mutter-x11-frames
+root          33  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/2:0H-kblockd]
+roman       3938  0.0  0.2 391296  9000 ?        Ssl  17:52   0:00 /usr/libexec/gsd-housekeeping
+root        1110  0.0  0.4 543980 15412 ?        Ssl  17:51   0:00 /usr/libexec/udisks2/udisksd
+roman       4206  0.0  0.7 762036 27516 ?        Ssl  17:52   0:00 /usr/libexec/xdg-desktop-portal-gnome
+root        1100  0.0  0.2 309928  8376 ?        Ssl  17:51   0:00 /usr/libexec/accounts-daemon
+root       30136  0.0  0.3  39056 12796 ?        Ss   21:25   0:00 /usr/lib/systemd/systemd-udevd
+root        5426  0.0  0.5 1707900 17420 pts/1   Tl   18:06   0:00 gh auth login
+roman       3982  0.0  1.1 842156 39736 ?        Sl   17:52   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+uuidd      30753  0.0  0.1   8108  3928 ?        Ss   21:51   0:00 /usr/sbin/uuidd --socket-activation --cont-clock
+roman       3480  0.0  0.5 488788 18252 ?        Ssl  17:51   0:00 /usr/bin/wireplumber
+root       29818  0.0  0.0      0     0 ?        I    19:50   0:00 [kworker/0:0-events]
+systemd+     415  0.0  0.4  22692 14588 ?        Ss   17:51   0:00 /usr/lib/systemd/systemd-resolved
+roman       4700  0.0  0.4 493388 15976 ?        Ssl  17:52   0:00 /usr/libexec/xdg-desktop-portal-gtk
+roman       3902  0.0  0.7 1157444 27200 ?       Ssl  17:52   0:00 /usr/libexec/evolution-source-registry
+root        5300  0.0  0.3  29060 11560 ?        Ss   18:04   0:00 /usr/sbin/cupsd -l
+root        1085  0.0  0.8  46848 28276 ?        Ss   17:51   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+roman       3831  0.0  0.1   8744  5132 ?        S    17:51   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+roman      30747  0.0  0.3 387160 10384 ?        Sl   21:51   0:00 /usr/libexec/gvfsd-wsdd --spawner :1.21 /org/gtk/gvfs/exec_spaw/4
+syslog      1191  0.0  0.1 220604  6368 ?        Ssl  17:51   0:00 /usr/sbin/rsyslogd -n -iNONE
+roman       4223  0.0  0.2 212688  8228 ?        S    17:52   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.9B9SY3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients -enable-ei-portal
+colord      2840  0.0  0.4 932112 14936 ?        Ssl  17:51   0:00 /usr/libexec/colord
+root        1102  0.0  0.2 308264  7432 ?        Ssl  17:51   0:00 /usr/libexec/switcheroo-control
+rtkit       2684  0.0  0.1  87408  3576 ?        SNsl 17:51   0:00 /usr/libexec/rtkit-daemon
+root        1310  0.0  0.7 126072 26928 ?        Ssl  17:51   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+roman       4609  0.0  0.1 215740  3916 ?        Sl   17:52   0:00 /usr/bin/VBoxClient --clipboard
+roman       4177  0.0  0.6 901980 21600 ?        Ssl  17:52   0:00 /usr/libexec/evolution-calendar-factory
+roman       4145  0.0  0.5 2659128 18612 ?       Sl   17:52   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+roman       3833  0.0  0.1 168688  6912 ?        Sl   17:51   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+_chrony     1198  0.0  0.3  23872 11036 ?        S    17:51   0:00 /usr/sbin/chronyd -n -F 1
+root        4925  0.0  0.1  12800  4992 pts/0    S+   17:52   0:00 sudo -s
+roman       3912  0.0  0.5 2661212 18788 ?       Sl   17:52   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+roman       3888  0.0  0.4 658676 14300 ?        Sl   17:52   0:00 /usr/libexec/gnome-shell-calendar-server
+root        2582  0.0  0.3 385004 10512 ?        Ssl  17:51   0:00 /usr/sbin/gdm3
+roman       3758  0.0  0.2 613992 10104 ?        Ssl  17:51   0:00 /usr/libexec/gnome-session-service --session=ubuntu
+roman       3474  0.0  0.3 103364 11108 ?        Ssl  17:51   0:00 /usr/bin/pipewire
+root        1277  0.0  0.4 391608 13920 ?        Ssl  17:51   0:00 /usr/sbin/ModemManager
+roman       3947  0.0  0.2 393916  9196 ?        Ssl  17:52   0:00 /usr/libexec/gsd-power
+roman       4224  0.0  0.7 826444 25612 ?        Ssl  17:52   0:00 /usr/libexec/evolution-addressbook-factory
+roman       3942  0.0  0.3 625996 11892 ?        Ssl  17:52   0:00 /usr/libexec/gsd-media-keys
+roman      30811  0.0  0.3 462500 11136 ?        Sl   21:51   0:00 /usr/libexec/gvfsd-admin --spawner :1.21 /org/gtk/gvfs/exec_spaw/5 --address unix:path=/run/user/1000/bus --dir /run/user/1000
+root          14  0.0  0.0      0     0 ?        S    17:51   0:00 [ksoftirqd/0]
+roman       3478  0.0  0.2 183516 10124 ?        SLsl 17:51   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+root          18  0.0  0.0      0     0 ?        S    17:51   0:00 [migration/0]
+roman       4203  0.0  0.2 388168  8760 ?        Sl   17:52   0:00 /usr/libexec/goa-identity-service
+root        3201  0.0  0.2 309664  7460 ?        Ssl  17:51   0:00 /usr/libexec/power-profiles-daemon
+root          30  0.0  0.0      0     0 ?        S    17:51   0:00 [migration/2]
+root          31  0.0  0.0      0     0 ?        S    17:51   0:00 [ksoftirqd/2]
+roman       4665  0.0  0.4 374024 17172 ?        Sl   17:52   0:00 /usr/libexec/ibus-x11
+roman       3691  0.0  0.2 687500  7340 ?        Ssl  17:51   0:00 /usr/libexec/xdg-document-portal
+root          24  0.0  0.0      0     0 ?        S    17:51   0:00 [migration/1]
+roman       3748  0.0  0.2 313528  8624 ?        Ssl  17:51   0:00 /usr/libexec/gvfsd
+avahi       1068  0.0  0.1   6748  4852 ?        Ss   17:51   0:00 avahi-daemon: running [roman-VB.local]
+cups-br+    5302  0.0  0.4 207560 15428 ?        Ssl  18:04   0:00 /usr/sbin/cups-browsed
+roman       4383  0.0  0.2 169100  6928 ?        Ssl  17:52   0:00 /usr/libexec/gvfsd-metadata
+roman       3482  0.0  0.3 176748 10980 ?        Ssl  17:51   0:00 /usr/bin/pipewire-pulse
+roman       4595  0.0  0.3 251748 10652 ?        Ssl  17:52   0:00 /usr/libexec/gsd-xsettings
+roman       3931  0.0  0.2 252076  8536 ?        Ssl  17:52   0:00 /usr/libexec/gsd-color
+root        3370  0.0  0.3 386308 11316 ?        Sl   17:51   0:00 gdm-session-worker [pam/gdm-password]
+root        1185  0.0  0.2  17972  6992 ?        Ss   17:51   0:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+roman       4463  0.0  0.2 534972  9548 ?        Sl   17:52   0:00 /usr/libexec/gvfsd-trash --spawner :1.21 /org/gtk/gvfs/exec_spaw/0
+roman       4236  0.0  0.3 387308 10740 ?        Ssl  17:52   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root        1069  0.0  0.0   2888  2004 ?        Ss   17:51   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+roman      30739  0.0  0.3 388876 10836 ?        Sl   21:51   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.21 /org/gtk/gvfs/exec_spaw/3
+roman      30731  0.0  0.3 387732 10784 ?        Sl   21:51   0:00 /usr/libexec/gvfsd-network --spawner :1.21 /org/gtk/gvfs/exec_spaw/2
+roman      30718  0.0  0.3 313760 10464 ?        Sl   21:51   0:00 /usr/libexec/gvfsd-recent --spawner :1.21 /org/gtk/gvfs/exec_spaw/1
+root       30617  0.0  0.0      0     0 ?        I    21:50   0:00 [kworker/2:2-events]
+roman       4312  0.0  0.2 309044  7468 ?        Ssl  17:52   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+roman       4077  0.0  0.4 467040 15148 ?        Sl   17:52   0:00 /usr/libexec/goa-daemon
+roman       3951  0.0  0.3 328060 12700 ?        Ssl  17:52   0:00 /usr/libexec/gsd-print-notifications
+root        4928  0.0  0.1   8008  3916 pts/1    S    17:52   0:00 /usr/bin/bash
+roman       4433  0.0  0.1 165348  6644 ?        Ssl  17:52   0:00 /usr/libexec/dconf-service
+roman       4111  0.0  0.2 308724  7164 ?        Sl   17:52   0:00 /usr/libexec/ibus-portal
+roman       3992  0.0  0.3 467840 11112 ?        Ssl  17:52   0:00 /usr/libexec/gsd-sharing
+roman       4300  0.0  0.1 308056  6868 ?        Ssl  17:52   0:00 /usr/libexec/gvfs-goa-volume-monitor
+roman       4011  0.0  0.2 472656  7752 ?        Ssl  17:52   0:00 /usr/libexec/gsd-usb-protection
+roman       3962  0.0  0.2 457424  7324 ?        Ssl  17:52   0:00 /usr/libexec/gsd-rfkill
+roman       3937  0.0  0.2 260612  9200 ?        Ssl  17:52   0:00 /usr/libexec/gsd-datetime
+root          12  0.0  0.0      0     0 ?        I    17:51   0:00 [kworker/u12:0-ipv6_addrconf]
+roman       4283  0.0  0.2 308076  7264 ?        Ssl  17:52   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+roman       4013  0.0  0.2 390860  9772 ?        Ssl  17:52   0:00 /usr/libexec/gsd-wwan
+roman       3984  0.0  0.1 170332  6840 ?        Ssl  17:52   0:00 /usr/libexec/gsd-screensaver-proxy
+root        1101  0.0  0.0   7064  2856 ?        Ss   17:51   0:00 /usr/sbin/cron -f -P
+root          17  0.0  0.0      0     0 ?        S    17:51   0:00 [rcu_exp_gp_kthread_worker]
+roman       4009  0.0  0.2 386152  8780 ?        Ssl  17:52   0:00 /usr/libexec/gsd-smartcard
+roman       3939  0.0  0.2 383576  7352 ?        Ssl  17:52   0:00 /usr/libexec/gsd-keyboard
+roman       3923  0.0  0.2 254244  7960 ?        Ssl  17:52   0:00 /usr/libexec/gsd-a11y-settings
+roman       3561  0.0  0.2 175212  7688 tty2     Sl+  17:51   0:00 /usr/libexec/gnome-session-init-worker ubuntu
+roman       3479  0.0  0.1   7560  3948 ?        Ss   17:51   0:00 /usr/bin/mpris-proxy
+roman       4908  0.0  0.0   8936  2292 pts/0    Ss   17:52   0:00 /usr/bin/bash
+roman       4130  0.0  0.3 407904 11308 ?        Sl   17:52   0:00 /usr/libexec/gsd-printer
+roman       4010  0.0  0.2 255392  8836 ?        Ssl  17:52   0:00 /usr/libexec/gsd-sound
+roman       3824  0.0  0.2 381068  7500 ?        Ssl  17:51   0:00 /usr/libexec/at-spi-bus-launcher
+roman       3481  0.0  0.1  84816  3588 ?        Ssl  17:51   0:00 /usr/bin/pipewire -c filter-chain.conf
+roman       3959  0.0  0.2 312176  8536 ?        Sl   17:52   0:00 /usr/libexec/gsd-disk-utility-notify
+roman       3704  0.0  0.1 307772  6736 ?        Ssl  17:51   0:00 /usr/libexec/xdg-permission-store
+root          42  0.0  0.0      0     0 ?        S    17:51   0:00 [khungtaskd]
+roman       4097  0.0  0.2 243224  7272 ?        Sl   17:52   0:00 /usr/libexec/ibus-dconf
+roman       3754  0.0  0.2 324864  7556 ?        Sl   17:51   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+roman       3736  0.0  0.1  10484  6484 ?        Ss   17:51   0:00 /usr/bin/ssh-agent -D
+roman       3735  0.0  0.1  87212  5384 ?        Ssl  17:51   0:00 /usr/libexec/gnome-session-ctl --monitor
+_chrony     1215  0.0  0.0  12120  3416 ?        S    17:51   0:00 /usr/sbin/chronyd -n -F 1
+root          71  0.0  0.0      0     0 ?        S    17:51   0:00 [scsi_eh_0]
+root          73  0.0  0.0      0     0 ?        S    17:51   0:00 [scsi_eh_1]
+root           2  0.0  0.0      0     0 ?        S    17:51   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    17:51   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/0:0H-kblockd]
+root          13  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-mm_percpu_wq]
+root          16  0.0  0.0      0     0 ?        S    17:51   0:00 [rcu_exp_par_gp_kthread_worker/0]
+root          19  0.0  0.0      0     0 ?        S    17:51   0:00 [kprobe-optimizer]
+root          20  0.0  0.0      0     0 ?        S    17:51   0:00 [idle_inject/0]
+root          21  0.0  0.0      0     0 ?        S    17:51   0:00 [cpuhp/0]
+root          22  0.0  0.0      0     0 ?        S    17:51   0:00 [cpuhp/1]
+root          23  0.0  0.0      0     0 ?        S    17:51   0:00 [idle_inject/1]
+root          27  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/1:0H-kblockd]
+root          28  0.0  0.0      0     0 ?        S    17:51   0:00 [cpuhp/2]
+root          29  0.0  0.0      0     0 ?        S    17:51   0:00 [idle_inject/2]
+root          37  0.0  0.0      0     0 ?        S    17:51   0:00 [kdevtmpfs]
+root          38  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-inet_frag_wq]
+root          39  0.0  0.0      0     0 ?        I    17:51   0:00 [rcu_tasks_kthread]
+root          40  0.0  0.0      0     0 ?        I    17:51   0:00 [rcu_tasks_rude_kthread]
+root          41  0.0  0.0      0     0 ?        S    17:51   0:00 [kauditd]
+root          43  0.0  0.0      0     0 ?        S    17:51   0:00 [oom_reaper]
+root          45  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-writeback]
+root          48  0.0  0.0      0     0 ?        SN   17:51   0:00 [ksmd]
+root          49  0.0  0.0      0     0 ?        SN   17:51   0:00 [khugepaged]
+root          51  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-kblockd]
+root          52  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-blkcg_punt_bio]
+root          53  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-kintegrityd]
+root          54  0.0  0.0      0     0 ?        S    17:51   0:00 [irq/9-acpi]
+root          55  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-tpm_dev_wq]
+root          56  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-ata_sff]
+root          57  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-md_bitmap]
+root          58  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-md_llbitmap_io]
+root          59  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-md_llbitmap_unplug]
+root          60  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-edac-poller]
+root          61  0.0  0.0      0     0 ?        I    17:51   0:00 [kworker/u12:1]
+root          62  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-devfreq_wq]
+root          63  0.0  0.0      0     0 ?        S    17:51   0:00 [watchdogd]
+root          64  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-quota_events_unbound]
+root          67  0.0  0.0      0     0 ?        S    17:51   0:00 [ecryptfs-kthread]
+root          68  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-kthrotld]
+root          69  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-acpi_thermal_pm]
+root          72  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-scsi_tmf_0]
+root          74  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-scsi_tmf_1]
+root          79  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-mld]
+root          80  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-ipv6_addrconf]
+root          81  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-kstrp]
+root          83  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/u16:0]
+root          85  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/u18:0-ttm]
+root          86  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/u19:0-ttm]
+root          88  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/2:1H]
+root         101  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-charger_manager]
+root         201  0.0  0.0      0     0 ?        S    17:51   0:00 [irq/18-vmwgfx]
+root         203  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-ttm]
+root         292  0.0  0.0      0     0 ?        S    17:51   0:00 [scsi_eh_2]
+root         293  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-scsi_tmf_2]
+root         318  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-ext4-rsv-conversion]
+avahi       1142  0.0  0.0   6564  1628 ?        S    17:51   0:00 avahi-daemon: chroot helper
+root        2328  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/u17:1-ttm]
+root        3202  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/u18:1-ttm]
+roman       3447  0.0  0.0  23460  2908 ?        S    17:51   0:00 (sd-pam)
+roman       3540  0.0  0.1 168628  6356 tty2     Ssl+ 17:51   0:00 /usr/libexec/gdm-wayland-session /usr/bin/gnome-session --session=ubuntu
+root        3711  0.0  0.0   2792  2208 ?        Ss   17:51   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+roman       3734  0.0  0.1  97560  6796 ?        Ssl  17:51   0:00 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+roman       4608  0.0  0.0  16920  1828 ?        S    17:52   0:00 /usr/bin/VBoxClient --clipboard
+roman       4650  0.0  0.0  16920  1668 ?        S    17:52   0:00 /usr/bin/VBoxClient --vmsvga-session
+root        4686  0.0  0.0      0     0 ?        I<   17:52   0:00 [kworker/u19:1-ttm]
+root        4927  0.0  0.0  12800  1068 pts/1    Ss   17:52   0:00 sudo -s
+root       10511  0.0  0.0      0     0 ?        S    18:43   0:00 [psimon]
+root       30146  0.0  0.0      0     0 ?        S    21:25   0:00 [psimon]
+root       30365  0.0  0.0      0     0 ?        I<   21:28   0:00 [kworker/u17:0-ttm]
+roman      30810  0.0  0.0   2888  1996 ?        S    21:51   0:00 /bin/sh -c pkexec /usr/libexec/gvfsd-admin "$@" --address $DBUS_SESSION_BUS_ADDRESS --dir $XDG_RUNTIME_DIR gvfsd-admin --spawner :1.21 /org/gtk/gvfs/exec_spaw/5
+root       30930  0.0  0.0      0     0 ?        I    21:54   0:00 [kworker/u13:1]
+root       30985  0.0  0.0      0     0 ?        I    22:20   0:00 [kworker/0:1-events]
+root       31007  0.0  0.0      0     0 ?        I    22:40   0:00 [kworker/2:0-cgroup_free]
+root       31017  0.0  0.0      0     0 ?        I    22:50   0:00 [kworker/1:3-events]
+root       31148  0.0  0.0  12796  2316 pts/3    Ss   22:58   0:00 sudo -s
+root       31149  0.0  0.1   8040  5328 pts/3    S+   22:58   0:00 /usr/bin/bash
+root       31161  0.0  0.0      0     0 ?        I    22:58   0:00 [kworker/2:1-cgroup_free]
