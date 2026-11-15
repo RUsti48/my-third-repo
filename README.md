@@ -5,7 +5,7 @@
 ```bash
 root@roman-VB:/home/roman/repo/my-third-repo# ps aux --sort=-%cpu 1> out.txt 2> /dev/null
 ```
-[Результат](/home/roman/repo/my-third-repo/out.txt)
+[Результат](out.txt)
 
 
 
