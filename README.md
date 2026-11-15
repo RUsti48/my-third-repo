@@ -44,8 +44,8 @@ Nmap done: 1 IP address (1 host up) scanned in 28.03 seconds
 ### Сканирование портов в grepable формате
 ```bash
 root@roman-VB:/home/roman/repo/my-third-repo# nmap -p 1-100 -oG -  scanme.nmap.org
-\# Nmap 7.98 scan initiated Sun Nov 15 23:53:41 2026 as: nmap -p 1-100 -oG - scanme.nmap.org
+# Nmap 7.98 scan initiated Sun Nov 15 23:53:41 2026 as: nmap -p 1-100 -oG - scanme.nmap.org
 Host: 45.33.32.156 (scanme.nmap.org)	Status: Up
 Host: 45.33.32.156 (scanme.nmap.org)	Ports: 8/closed/tcp/////, 21/closed/tcp//ftp///, 22/open/tcp//ssh///, 23/closed/tcp//telnet///, 25/closed/tcp//smtp///, 27/closed/tcp//nsw-fe///, 35/closed/tcp//priv-print///, 40/closed/tcp/////, 53/closed/tcp//domain///, 66/closed/tcp//sqlnet///, 68/closed/tcp//dhcpc///, 79/closed/tcp//finger///, 80/open/tcp//http///, 96/closed/tcp//dixie///	Ignored State: filtered (86)
-\# Nmap done at Sun Nov 15 23:53:46 2026 -- 1 IP address (1 host up) scanned in 5.62 seconds
+# Nmap done at Sun Nov 15 23:53:46 2026 -- 1 IP address (1 host up) scanned in 5.62 seconds
 ```
